@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jQuery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Galeria de fotos</h1>
+            <button>Nova imagem +</button>
+        </header>
+        <form>
+            <h2>Inserir nova imagem</h2>
+            <input id="endereco_imagem" type="url" required placeholder="Escreva a URL da imagem"/>
+            <button type="submit">Enviar</button>
+            <button type="reset" id="botao_cancelar">Cancelar</button>
+        </form>
+        <ul>
+            <li>
+                <img src="./images/foto1.jpg" alt="Pintura de um gato na floresta">
+                <div class="image_link">
+                    <a href="./images/foto1.jpg" title="Tamanho real" target="_blank">Ver imagem original</a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/foto2.jpg" alt="Flamingo mordendo o próprio peito">
+                <div class="image_link">
+                    <a href="./images/foto2.jpg" title="Tamanho real" target="_blank">Ver imagem original</a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/foto3.jpg" alt="Homem botando os cachorros no saco e levando embora">
+                <div class="image_link">
+                    <a href="./images/foto3.jpg" title="Tamanho real" target="_blank">Ver imagem original</a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/foto4.jpg" alt="Abelha pousando na flor">
+                <div class="image_link">
+                    <a href="./images/foto4.jpg" title="Tamanho real" target="_blank">Ver imagem original</a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/foto5.jpg" alt="Flor roxa.">
+                <div class="image_link">
+                    <a href="./images/foto5.jpg" title="Tamanho real" target="_blank">Ver imagem original</a>
+                </div>
+            </li>
+        </ul>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
